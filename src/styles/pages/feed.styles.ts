@@ -1,6 +1,4 @@
-import { Roboto } from "next/font/google";
-
-import { styled } from "../../styles";
+import { styled } from "..";
 
 export const Main = styled("main", {
   display: "flex",

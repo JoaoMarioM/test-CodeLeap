@@ -17,18 +17,18 @@ import {
   ModalContent,
   ModalTitle,
   ButtonContainer,
-} from "@/pages/feed/styles";
+} from "@/styles/pages/feed.styles";
 
 import Input from "@/components/Input";
 import TextArea from "@/components/Input/textarea";
 
 import TrashIcon from "@/assets/trash.svg";
 import EditIcon from "@/assets/edit.svg";
-import { FeedData, FeedRequest } from "./types";
+import { FeedData, FeedRequest } from "../../types/home.types";
 import moment from "moment";
 import EditFeed from "@/components/Modals/editFeed";
 
-export default function Home() {
+export default function Feed() {
   const router = useRouter();
 
   const { register, handleSubmit, reset } = useForm({

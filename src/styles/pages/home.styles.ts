@@ -1,6 +1,4 @@
-import { Roboto } from "next/font/google";
-
-import { styled } from "../styles";
+import { styled } from "..";
 
 export const Main = styled("main", {
   display: "flex",
@@ -16,7 +14,7 @@ export const Container = styled("div", {
   padding: "24px",
   border: "1px solid #ccc",
   borderRadius: "1rem",
-  // fontFamily: "roboto",
+
   h2: {
     fontSize: 22,
     lineHeight: "26px",

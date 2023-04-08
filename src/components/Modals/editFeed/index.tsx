@@ -17,13 +17,13 @@ import {
   ModalContent,
   ModalTitle,
   ButtonContainer,
-} from "@/pages/feed/styles";
+} from "@/styles/pages/feed.styles";
 
 import Input from "@/components/Input";
 import TextArea from "@/components/Input/textarea";
 
 import moment from "moment";
-import { FeedData, FeedRequest } from "@/pages/feed/types";
+import { FeedData, FeedRequest } from "@/types/home.types";
 import { ModalEditProps } from "./types";
 
 export default function EditFeed({

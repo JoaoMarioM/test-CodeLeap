@@ -1,4 +1,4 @@
-import { FeedData } from "@/pages/feed/types";
+import { FeedData } from "@/types/home.types";
 
 export type ModalEditProps = {
   isOpen: boolean;

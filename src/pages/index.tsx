@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 
-import { Container, Main } from "@/pages/styles";
+import { Container, Main } from "@/styles/pages/home.styles";
 import Input from "@/components/Input";
 export default function Home() {
   const router = useRouter();
